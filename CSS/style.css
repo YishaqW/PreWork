@@ -9,10 +9,6 @@ html {
   padding: 0;
   border: 0; }    */
 
-body {
-  display: block;
-}
-
 h2{
   color: #5FD068;
   font-weight: bold;
@@ -78,10 +74,10 @@ form {
 nav {
   text-align: center;
   display: flex;
+  position: -webkit-sticky;
   }
 
 #div1 {
-  position: sticky;
   padding-top: 0;
 }
 
@@ -93,14 +89,18 @@ nav {
   flex-direction: row; 
   justify-content: space-between;
   list-style-type: none;
-  margin-left: 100px;
-  margin-right: 130px;}
+  padding-left: 100px;
+  padding-right: 100px;
+  position: -webkit-sticky;
+}
 
 .welcome-title {
   font-size: 33px;
   padding-top: 100px;
   margin-top: 20px; 
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  position: -webkit-sticky;
+}
   
 #parent {
   display: flex; 
